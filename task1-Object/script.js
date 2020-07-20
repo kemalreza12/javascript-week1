@@ -6,20 +6,20 @@ const biodata = {
     schoolList: [
         {
             name: "SDN 1 SUKAMUKTI",
-            yearIn: "2007",
-            yearOut: "2013",
-            major: "null"
+            yearIn: 2007,
+            yearOut: 2013,
+            major: null
         },
         {
             name: "MTsN 7 KUNINGAN",
-            yearIn: "2013",
-            yearOut: "2016",
-            major: "null"
+            yearIn: 2013,
+            yearOut: 2016,
+            major: null
         },
         {
             name: "SMKN 3 KUNINGAN",
-            yearIn: "2016",
-            yearOut: "2019",
+            yearIn: 2016,
+            yearOut: 2019,
             major: "Multimedia"
         }
     ],
