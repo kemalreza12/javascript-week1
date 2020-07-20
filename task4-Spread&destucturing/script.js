@@ -14,17 +14,12 @@ let data = {
     website: "hildegard.org" ,
 }
 
-const data2 = {
-    name: "Kemal Reza",
-    email: "kemalreza92@gmail.com"
-}
+const newData = {...data, name: "Kemal Reza", 
+email: "kemalreza92@gmail.com", 
+hobby: ["Swimming", "Watching film", "Reading", "Playing badminton"]}
 
-const data3 = {
-    hobby: "Swimming, Watching film, Reading, Playing badminton"
-}
+console.log(newData)
 
-const merge = {...data, ...data2, ...data3};
-console.log(merge)
 
 const {street, city} = data.address;
 console.log(street, city)
